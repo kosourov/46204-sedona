@@ -6,33 +6,164 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<header>
-		<nav>
-			<ul class="top-menu">
-				<li><a href="#"></a>Информация</li>
-				<li><a href="#"></a>Фото и Видео</li>
-				<li><a href="index.html"></a> </li>
-				<li><a href="#"></a>Карта штата</li>
-				<li><a href="hotels.html"></a>Гостиницы</li>
-			</ul>
-		</nav>
-		<div class="intro">
-			<div class="intro-text welcome">
-				<img src="img/intro-welcome.png" alt="Welcome to the gorgeous">
+
+	<div class="container">
+
+
+		<header>
+			<nav>
+				<ul class="main-navigation">
+					<li><a href="#">Информация</a></li>
+					<li><a href="#">Фото и видео</a></li>
+					<li><img class="logo" src="" width="138" height="70" alt=""></li>
+					<li><a href="h#">Карта штата</a></li>
+					<li><a href="hotels.html">Гостиницы</a></li>
+				</ul>
+			</nav>
+		</header>
+
+
+		<div class="index-content">
+
+			<div class="main-image-block">
+				<div class="wrapper">
+					<img class="deco-stripe" src="" width="188" height="86" alt="Welcome to the gorgeous">
+					<img src="" alt="Sedona">
+					<img src="" alt="Because the Grand Canyon sucks!">
+				</div>
 			</div>
-			<div class="intro-text sedona">
-				<img src="img/intro-sedona.png" alt="Sedona"/>
+
+
+			<div class="index-content-title">
+				<h2>Седона - небольшой городок в Аризоне, заслуживающий большего!</h2>
+				<p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
 			</div>
-			<div class="intro-text slogan">
-				<img src="img/intro-slogan.png" alt="Because the Grand Canyon sucks!"/>
+
+
+			<div class="reasons-why-sedona truecity clearfix">
+				<div class="text">
+					<div class="text-wrapper">
+						<h2>Настоящий городок</h2>
+						<p class="deco-stripe">№1</p>
+						<p>Седона не аттракцион для туристов, там течет своя жизнь</p>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="sedona-features clearfix">
+				<div class="feature accomodation-feature">
+					<div class="text-wrapper">
+						<h2>Жилье</h2>
+						<p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+					</div>
+				</div>
+				<div class="feature meal-feature">
+					<div class="text-wrapper">
+						<h2>Еда</h2>
+						<p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+					</div>
+				</div>
+				<div class="feature gifts-feature">
+					<div class="text-wrapper">
+						<h2>Сувениры</h2>
+						<p>Не только китайского, но и местного производства!</p>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="reasons-why-sedona devilbridge clearfix">
+				<div class="text">
+					<div class="text-wrapper">
+						<h2>Там есть Мост Дьявола</h2>
+						<p class="deco-stripe">№2</p>
+						<p>Да, по нему можно пройти! Если, конечно, вы осмелитесь</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="reasons-why-sedona threeinone clearfix">
+				<div class="text">
+					<div class="text-wrapper">
+						<h2>Небольшая площадь</h2>
+						<p class="deco-stripe-black">№3</p>
+						<p>Все достопримечательности находятся очень близко</p>
+					</div>
+				</div>
+				<div class="text">
+					<div class="text-wrapper">
+						<h2>Красивая дорога</h2>
+						<p class="deco-stripe-black">№4</p>
+						<p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+					</div>
+				</div>
+				<div class="text">
+					<div class="text-wrapper">
+						<h2>Мало туристов</h2>
+						<p class="deco-stripe-black">№5</p>
+						<p>Большинство едет в Гранд Каньон и толпится там</p>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="search-form-title">
+				<div class="text-wrapper">
+					<h2>Заинтересовались?</h2>
+					<p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+				</div>
+
+				<div class="hotel-search-btn">
+					<a class="hotel-search" href="http://talequale.ru/sedona/search-form-page.html">Поиск гостиницы в Седоне</a>
+					<div class="modal-content">
+						<div class="modal-content-error">Необходимо заполнить все поля</div>
+						<form action="#" method="post">
+							<p>
+								<label for="checkin">Дата заезда:</label>
+								<input type="date" name="checkin" id="checkin" placeholder="24 апреля 2014">
+							</p>
+							<p>
+								<label for="checkout">Дата выезда:</label>
+								<input type="date" name="checkout" id="checkout" placeholder="4 июля 2014">
+							</p>
+							<p>
+								<label for="grown-ups">Взрослые:</label>
+								<input type="number" name="grown-ups" min="1" id="grown-ups" value="2">
+								<label for="children">Дети:</label>
+								<input type="number" name="children" id="children" value="0">
+							</p>
+							<div>
+								<input class="search-btn btn" type="submit" id="search-btn" name="search-btn" value="Найти">
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="map-footer-wrapper">
+				<div class="map-wrapper" id="map-canvas"></div>
+
+				<footer class="clearfix">
+
+					<p>#visitsedona</p>
+
+					<div class="sedona-socials">
+						<a href="#" class="social-btn btn-tw">twitter</a>
+						<a href="#" class="social-btn btn-fb">facebook</a>
+						<a href="#" class="social-btn btn-youtube">youtube</a>
+					</div>
+
+					<div class="copyright clearfix">
+						<p>Website by</p>
+						<p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
+					</div>
+
+				</footer>
 			</div>
 		</div>
-	</header>
-	<!-- main-->
-	<main>
-		
-	</main>
-	<p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
+	</div>
 
 </body>
 </html>
