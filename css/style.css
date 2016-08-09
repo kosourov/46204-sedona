@@ -1,0 +1,19 @@
+body {
+height: 14px;
+line-height: 26px;
+
+}
+
+h2 {
+height: 21px;
+line-height: 26px;
+}
+
+h3 {
+height: 21px;
+line-height: 21px;
+}
+
+.intro {
+	background-image: url("../img/background.png");
+}
