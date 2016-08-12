@@ -1,19 +1,119 @@
 body {
-font-size: 14px;
-line-height: 26px;
-
+	font-size: 14px;
+	line-height: 26px;
+	/*background-image: url(../index.png);
+	background-repeat: no-repeat;*/
 }
 
 h2 {
-font-size: 21px;
-line-height: 26px;
+	font-size: 21px;
+	line-height: 26px;
 }
 
 h3 {
-font-size: 21px;
-line-height: 21px;
+	font-size: 21px;
+	line-height: 21px;
+}
+.header-nav li {
+	display: inline
+}
+.center	{
+	width: 1200px;
+	margin: 0 auto;
+  
+}
+
+.header-nav	{
+  width: 1055px;
+  height: 55px;
+  text-align: center;
 }
 
 .intro {
-	background-image: url("../img/background.jpg");
+	width: 1200px;
+	background-image: url("../img/background.jpg");			
 }
+
+.content	{
+
+}
+
+.content-main	{
+
+}
+
+.content-title	{
+	width: 575px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin: auto;
+	text-align: center;
+}
+
+.content-pic	{
+width: 100%;
+}
+
+.content-text	{
+	width: 400px;
+  padding: auto;
+  height: 255px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.content-image	{
+	width: 800px;
+	margin-top: 40px;
+	height: 255px;
+}
+
+.content-hotels{
+
+}
+
+.content-hotel-search	{
+	text-align: center;
+}
+
+.hotels-map	{
+
+}
+
+.footer-sedona	{
+	width: 400px;
+}
+
+.footer-social	{
+	width: 400px;
+}
+
+.footer-copyright	{
+	width: 400px;
+}
+
+.bg-social	{
+	background-color: #81b3d2;
+}
+
+.clearfix	{
+	clear: both;
+}
+
+.to-left	{
+	float: left;
+}
+
+.to-right	{
+	float: right;
+}
+
+.bg-blue	{
+	background-color: #81b3d2;
+	color: #ddebf3;
+}
+
+.content-tex p {
+	color: #333333;
+}
+
