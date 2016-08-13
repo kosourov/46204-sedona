@@ -20,26 +20,28 @@ h3 {
 .center	{
 	width: 1200px;
 	margin: 0 auto;
-  
+	outline: 5px solid red;
 }
 
 .header-nav	{
-  width: 1055px;
-  height: 55px;
-  text-align: center;
+	width: 1055px;
+	height: 55px;
+	text-align: center;
+	outline: 2px solid blue;
 }
 
 .intro {
 	width: 1200px;
-	background-image: url("../img/background.jpg");			
+	background-image: url("../img/background.jpg");	
+	outline: 3px solid #ff6204;		
 }
 
 .content	{
-
+	outline: 2px solid blue;	
 }
 
 .content-main	{
-
+	outline: 3px solid #ff6204;		
 }
 
 .content-title	{
@@ -51,25 +53,28 @@ h3 {
 }
 
 .content-pic	{
-width: 100%;
+	width: 100%;
 }
 
 .content-text	{
 	width: 400px;
-  padding: auto;
-  height: 255px;
-  margin-top: 40px;
-  text-align: center;
+	padding: auto;
+	height: 255px;
+	margin-top: 40px;
+	text-align: center;
+	outline: 2px solid green;
+	
 }
 
 .content-image	{
 	width: 800px;
 	margin-top: 40px;
 	height: 255px;
+	outline: 2px solid #ffe400;	
 }
 
 .content-hotels{
-
+	outline: 3px solid #ff6204;
 }
 
 .content-hotel-search	{
@@ -77,19 +82,22 @@ width: 100%;
 }
 
 .hotels-map	{
-
+	outline: 2px solid blue;	
 }
 
 .footer-sedona	{
 	width: 400px;
+	outline: 2px solid blue;	
 }
 
 .footer-social	{
 	width: 400px;
+	outline: 2px solid blue;	
 }
 
 .footer-copyright	{
 	width: 400px;
+	outline: 2px solid blue;	
 }
 
 .bg-social	{
@@ -113,7 +121,7 @@ width: 100%;
 	color: #ddebf3;
 }
 
-.content-tex p {
+.content-text p {
 	color: #333333;
 }
 
