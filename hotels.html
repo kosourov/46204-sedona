@@ -7,7 +7,7 @@
 </head>
 <body>
 	<div class="center">
-		<nav class="header-nav">
+		<nav>
 			<ul class="header-nav">
 				<li><a href="#">Информация</a></li>
 				<li><a href="#">Фото и видео</a></li>
@@ -19,7 +19,7 @@
 
 		<main>
 			<section class="search">
-				<div class="main-search">
+				<div class="main-search clearfix">
 					<div class="search-options to-left">
 						<h2>Инфроструктура:</h2>
 						<form method="post" action="#">
@@ -43,7 +43,7 @@
 							<label for="apartments">Апартаменты</label>
 						</form>
 					</div>
-					<div class="search-price to-rignt">
+					<div class="search-price to-right">
 						<h2>Стоимость в сутки (Р):</h2>
 						<div class="search-price-control">
 							<label for="from">от</label>
@@ -76,10 +76,10 @@
 						<a class="arrow-down" href="#"></a>
 					</div>
 				</div>
-				
-				<div class="result">
+				<!-- отступы -->
+				<div class="result clearfix">
 					<div class="result-item">
-						<div class="result-text-pic to-left clearfix">
+						<div class="result-text-pic to-left">
 							<div class="result-pic to-left">
 								<img src="img/amara.jpg" width="135" height="90" alt="Гостиница Amara Resort & Spa">
 							</div>
@@ -108,8 +108,8 @@
 				</div>
 
 				<div class="result">
-					<div class="result-item">
-						<div class="result-text-pic to-left clearfix">
+					<div class="result-item clearfix">
+						<div class="result-text-pic to-left">
 							<div class="result-pic to-left">
 								<img src="img/desert.jpg" width="135" height="90" alt="Мотель Desert Quail Inn" />
 							</div>
@@ -136,8 +136,8 @@
 				</div>
 
 				<div class="result">
-					<div class="wrap-result ">
-						<div class="result-text-pic to-left clearfix">
+					<div class="result-item clearfix">
+						<div class="result-text-pic to-left">
 							<div class="result-pic to-left">
 								<img src="img/vilas.jpg" width="135" height="90" alt="Апартаменты Villas at Poco Diablo" />
 							</div>
@@ -166,16 +166,17 @@
 
 			</section>
 		</main>	
-		<footer>
+		<footer class="clearfix">
 			<h4 class="footer-sedona">#visitsedona</h4>
 			<div class="footer-social">
 				<a href="#" class="btn social-twitter">Мы а Twitter</a>
 				<a href="#" class="btn social-fb">Мы в Facebook</a>
 				<a href="#" class="btn social-youtube">Мы в YouTube</a>
 			</div>
-			<div class="footer-col copyright">
+			<div class="footer-copyright">
 				<span>Website by</span>
 				<a href="https://htmlacademy.ru/"><img src="img/htmlacademy.png" width="113" height="39" alt="htmlacademy"></a>
+				</div>
 			</footer>
 		</div>
 	</body>

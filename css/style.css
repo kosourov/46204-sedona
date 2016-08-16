@@ -1,6 +1,7 @@
 body {
 	font-size: 14px;
 	line-height: 26px;
+	
 	/*background-image: url(../index.png);
 	background-repeat: no-repeat;*/
 }
@@ -24,15 +25,19 @@ h3 {
 }
 
 .header-nav	{
+	font-variant: small-caps;
 	width: 1055px;
-	height: 55px;
 	text-align: center;
+	padding-left: 72px;
+	padding-right: 72px;
 	outline: 2px solid blue;
 }
 
 .intro {
 	width: 1200px;
+	
 	background-image: url("../img/background.jpg");	
+	background-repeat: no-repeat;
 	outline: 3px solid #ff6204;		
 }
 
@@ -46,6 +51,7 @@ h3 {
 
 .content-title	{
 	width: 575px;
+	padding-top: 40px;
 	margin-top: 40px;
 	margin-bottom: 40px;
 	margin: auto;
@@ -59,9 +65,11 @@ h3 {
 .content-text	{
 	width: 400px;
 	padding: auto;
-	height: 255px;
+
+	min-height: 255px;
 	margin-top: 40px;
 	text-align: center;
+	vertical-align: middle;
 	outline: 2px solid green;
 	
 }
@@ -85,27 +93,36 @@ h3 {
 	outline: 2px solid blue;	
 }
 
+footer {
+	width: 1200px;
+	
+}
 .footer-sedona	{
 	width: 400px;
-	outline: 2px solid blue;	
+	outline: 2px solid blue;
+	float: left;
 }
 
 .footer-social	{
 	width: 400px;
-	outline: 2px solid blue;	
+	outline: 2px solid blue;
+	float: left;
 }
 
 .footer-copyright	{
 	width: 400px;
 	outline: 2px solid blue;	
+	float: left;
 }
 
 .bg-social	{
 	background-color: #81b3d2;
 }
 
-.clearfix	{
-	clear: both;
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .to-left	{
@@ -125,3 +142,53 @@ h3 {
 	color: #333333;
 }
 
+/*Страница отелей*/
+.search	{
+	background-image: url(../img/background_hotels.jpg);
+	outline: 2px solid blue;	
+}
+.search-options	{
+	width: 225px;
+	outline: 2px solid blue;	
+}
+
+.search-type	{
+	padding-left: 15px;
+	outline: 2px solid blue;	
+}
+
+.search-price	{
+	width: 327px;
+	outline: 2px solid blue;
+}
+
+.results	{
+	outline: 2px solid blue;
+}
+
+.results-head	{
+	
+	outline: 2px solid blue;
+}
+
+.result-item	{
+
+outline: 2px solid blue;
+
+}
+
+.result-text-pic	{
+	width: 527px;
+	outline: 2px solid blue;
+}
+
+.result-stars-rating	{
+	width: 240px;
+	outline: 2px solid blue;
+}
+
+.result-text-pic	{
+}
+
+.result-info	{
+}
