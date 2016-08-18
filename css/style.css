@@ -16,7 +16,7 @@ h3 {
 	line-height: 21px;
 }
 .header-nav li {
-	display: inline
+	display: inline-block;
 }
 .center	{
 	width: 1200px;
@@ -35,10 +35,15 @@ h3 {
 
 .intro {
 	width: 1200px;
-	
+	height: 563px;
 	background-image: url("../img/background.jpg");	
 	background-repeat: no-repeat;
 	outline: 3px solid #ff6204;		
+}
+
+.intro img {
+	padding-top: 132px;
+	padding-left: 371px;
 }
 
 .content	{
