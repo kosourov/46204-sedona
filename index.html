@@ -11,11 +11,10 @@
 	<div class="center">
 		<header>
 			<nav>
-				
 				<ul class="header-nav">
-					<li><a href="#">Информация</a></li>
+					<li class="active"><a href="index.html">Информация</a></li>
 					<li><a href="#">Фото и видео</a></li>
-					<li><a href="index.html"><img class="logo" src="img/logo.png" width="138" height="70" alt=""></a></li>
+					<li class="logo"><a href="index.html"><img src="img/logo.png" alt="Седона"/></a></li>
 					<li><a href="#">Карта штата</a></li>
 					<li><a href="hotels.html">Гостиницы</a></li>
 				</ul>
@@ -32,7 +31,7 @@
 				</div>
 
 				<div class="content-pic clearfix">
-					<div class="content-text bg-blue to-left">
+					<div class="content-text to-left">
 						<h3>Настоящий городок</h3>
 						<p>— №1 —</p>
 						<p>Cедона не атракцион для туристов,<br> там течет своя жизнь</p>	
@@ -72,14 +71,14 @@
 					<div class="content-image to-left">
 						<img src="img/brige.jpg" width="800" height="256" alt="Мост дьявола">					
 					</div>
-					<div class="content-text bg-blue to-right">
+					<div class="content-text to-right">
 						<h3>Там есть <br> мост дьявола</h3>
 						<p>— №2 —</p>
 						<p>Да, по нему можно пройти! <br> Если конечно вы осмелитесь</p>
 					</div>
 				</div>
 
-				<div class="content">
+				<div class="content-adv clearfix">
 					<div class="content-text to-left">
 						<h3>Небольшая площадь</h3>
 						<p>— №3 —</p>
@@ -106,60 +105,61 @@
 					<h3>Укажите предполагаемые даты поездки, <br> 
 						и мы покажем вам лучшие предложения гостиниц в седоне</h3>
 					</div>
-					<a class="content-hotel-search" href="hotels.html"><h2>Поиск гостиницы в Седоне</h2></a>
+					<!--  
+					<a class="content-hotel-search" href="hotels.html"><h2>Поиск гостиницы в Седоне</h2></a> -->
 					<!--на случай если будет JS-->
-					<!--
+					
 					<article class="hotel-search">
-          <h2>Поиск гостиницы в Седоне</h2>
-          <form method="post" action="#">
-            <div class="form-layout-row clearfix">
-              <label for="date-in" class="to-left" >Дата заезда:</label>
-              <input id="date-in" class="date-in to-right" type="text" placeholder="24 апреля 2014"/>
-            </div>
-            <div class="form-layout-row dates clearfix">
-              <label for="date-out" class="to-left">Дата выезда:</label>
-              <input id="date-out" class="date-out to-right" type="text" placeholder="4 июля 2014"/>
-            </div>
-            <div class="form-layout-row clearfix">
-              <div class="form-layout-row-half to-left clearfix">
-                <label for="count-adults" class="to-left">Взрослые:</label>
-                <div class="form-layout-row-half-btns to-right">
-                  <input class="btn-minus" type="button" value="-">
-                  <input id="count-adults" type="text" placeholder="2">
-                  <input class="btn-plus" type="button" value="+">
+            <h2>Поиск гостиницы в Седоне</h2>
+            <form method="post" action="#">
+              <div class="form-layout-row clearfix">
+                <label for="date-in" class="to-left" >Дата заезда:</label>
+                <input id="date-in" class="date-in to-right" type="text" placeholder="24 апреля 2014"/>
+              </div>
+              <div class="form-layout-row dates clearfix">
+                <label for="date-out" class="to-left">Дата выезда:</label>
+                <input id="date-out" class="date-out to-right" type="text" placeholder="4 июля 2014"/>
+              </div>
+              <div class="form-layout-row clearfix">
+                <div class="form-layout-row-half to-left clearfix">
+                  <label for="count-adults" class="to-left">Взрослые:</label>
+                  <div class="form-layout-row-half-btns to-right">
+                    <input class="btn-minus" type="button" value="-">
+                    <input id="count-adults" type="text" placeholder="2">
+                    <input class="btn-plus" type="button" value="+">
+                  </div>
+                </div>
+                <div class="form-layout-row-half to-right clearfix">
+                  <label for="count-children" class="count-children to-left">Дети:</label>
+                  <div class="form-layout-row-half-btns to-right">
+                    <input class="btn-minus" type="button" value="-">
+                    <input id="count-children" type="text" placeholder="0">
+                    <input class="btn-plus" type="button" value="+">
+                  </div>
                 </div>
               </div>
-              <div class="form-layout-row-half to-right clearfix">
-                <label for="count-children" class="count-children to-left">Дети:</label>
-                <div class="form-layout-row-half-btns to-right">
-                  <input class="btn-minus" type="button" value="-">
-                  <input id="count-children" type="text" placeholder="0">
-                  <input class="btn-plus" type="button" value="+">
-                </div>
-              </div>
-            </div>
-            <input class="btn-search blue-btn" type="submit" value="Найти">
-          </form>  
-        </article>
-      -->
+              <input class="btn-search blue-btn" type="submit" value="Найти">
+            </form>  
+          </article>
 
-    </section>
-    <footer class="clearfix">
-    	<div class="hotels-map">
-    		<img src="img/map.jpg" width="1200" height="593">
-    	</div>
-    	<h4 class="footer-sedona to-left">#visitsedona</h4>
-    	<div class="footer-social to-left">
-    		<a href="#" class="btn social-twitter">Мы а Twitter</a>
-    		<a href="#" class="btn social-fb">Мы в Facebook</a>
-    		<a href="#" class="btn social-youtube">Мы в YouTube</a>
-    	</div>
-    	<div class="footer-copyright to-left">
-    		<span>Website by</span>
-    		<a href="https://htmlacademy.ru/"><img src="img/htmlacademy.png" width="113" height="39" alt="htmlacademy"></a>
-    	</div>
-    </footer>
-  </main>
-</div>
-</body>
-</html>
+
+				</section>
+				<footer class="clearfix">
+					<div class="hotels-map">
+						<img src="img/map.jpg" width="1200" height="593">
+					</div>
+					<h4 class="footer-sedona footer-col">#visitsedona</h4>
+					<div class="footer-social footer-col">
+						<a href="#" class="btn social-twitter">Мы а Twitter</a>
+						<a href="#" class="btn social-fb">Мы в Facebook</a>
+						<a href="#" class="btn social-youtube">Мы в YouTube</a>
+					</div>
+					<div class="footer-copyright footer-col">
+						<span>Website by</span>
+						<a href="https://htmlacademy.ru/"><img src="img/htmlacademy.png" width="113" height="39" alt="htmlacademy"></a>
+					</div>
+				</footer>
+			</main>
+		</div>
+	</body>
+	</html>
