@@ -67,8 +67,13 @@ a:active {
 	padding-bottom: 16px;
 	width: 20%;
 	color: #000000;
-	font-weight: ;
+	
 }
+.header-nav li:last-child  {
+	padding-left: 12px;
+	box-sizing: border-box;
+}
+
 
 .header-nav li a:link,
 .header-nav li a:visited,
@@ -210,6 +215,7 @@ footer h4.footer-col {
 	line-height: 26px;
 	vertical-align: middle;
 	margin-top: 11px;
+	font-weight: bold;
 }
 
 .footer-col {
@@ -328,7 +334,7 @@ footer h4.footer-col {
 	color: #ffffff;
 	font-size: 14px;
 	line-height: 21px;
-	padding-top: 5px;
+	
 }
 
 
